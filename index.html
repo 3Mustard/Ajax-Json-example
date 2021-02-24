@@ -2,19 +2,21 @@
 <html>
 
 <head>
-    <title>jQuery and AJAX</title>
+    <title>json and AJAX</title>
 </head>
 
 <body>
 
     <p>Click on the button to load chaeyoung.json</p>
 
+    <!-- Will use the ID's of the three paragraph tags in script.js to populate with data from chaeyoung.json -->
     <div id="stage" style="background-color:yellow;">
         <p id="name"></p>
         <p id="birthday"></p>
         <p id="bio"></p>
     </div>
 
+    <!-- The onclick connects to the function loadData in script.js -->
     <input type="button" onclick="loadData()" value="Load Data" />
     <script src="script.js"></script>
 </body>
